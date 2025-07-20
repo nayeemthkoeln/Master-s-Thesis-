@@ -34,6 +34,7 @@ A deterministic sensitivity analysis is performed to create "Tornado" and "Spide
 A final, comprehensive financial report is generated and saved to Excel.
 
 3. File Structure
+<img width="864" height="420" alt="image" src="https://github.com/user-attachments/assets/4bea1e25-6a64-4ebd-bf1d-36edf1e7be64" />
 
 
 ├── data/
