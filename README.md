@@ -1,7 +1,7 @@
 # Master-s-Thesis-
 Economic Analysis of an Innovative Agrivoltaics Concept Regarding Future Electricity Market Conditions
 
-<img width="724" height="378" alt="image" src="https://github.com/user-attachments/assets/e35d39ed-4483-455a-b15f-3a8ce126f36a" /> <img width="360" height="480" alt="image" src="https://github.com/user-attachments/assets/9d231b1b-f2a6-4b2c-a6b6-da33cb54af2b" />
+<img width="724" height="378" alt="image" src="https://github.com/user-attachments/assets/e35d39ed-4483-455a-b15f-3a8ce126f36a" /> 
 
 
 
