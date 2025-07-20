@@ -34,7 +34,32 @@ A deterministic sensitivity analysis is performed to create "Tornado" and "Spide
 A final, comprehensive financial report is generated and saved to Excel.
 
 3. File Structure
-.
+
+├── data/
+│   ├── Spot EU Gas Merged_Hourly_Data.csv
+│   ├── Spot Price_less variables_Hourly_Data.csv
+│   ├── pv_tmy_data.csv
+│   ├── farm_load_hourly.csv
+│   └── monthly_marktwert.csv
+│
+├── scripts/
+│   ├── Auxiliary Code.py
+│   └── 3 Parts Main Code.py
+│
+├── output/
+│   ├── fitted_seasonal_models.joblib
+│   ├── seasonal_exog_scalers.joblib
+│   ├── best_orders_per_season.joblib
+│   ├── spot_price_forecasts_hourly_....xlsx
+│   ├── generated_future_exogenous_....xlsx
+│   └── financial_results_final.xlsx
+│
+└── README.md
+
+
+
+
+
 ├── data/
 │   ├── Spot EU Gas Merged_Hourly_Data.csv      # (Auxiliary) Full dataset for initial EDA (2015-2024)
 │   ├── Spot Price_less variables_Hourly_Data.csv # Main dataset used for modeling (2021-2024)
