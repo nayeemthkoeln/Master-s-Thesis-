@@ -1,5 +1,10 @@
 # Master-s-Thesis-
-Electricity Spot Price Forecasting and Techno-Economic Analysis of Agri-PV Systems
+Economic Analysis of an Innovative Agrivoltaics Concept Regarding Future Electricity Market Conditions
+
+<img width="724" height="378" alt="image" src="https://github.com/user-attachments/assets/e35d39ed-4483-455a-b15f-3a8ce126f36a" /> <img width="360" height="480" alt="image" src="https://github.com/user-attachments/assets/9d231b1b-f2a6-4b2c-a6b6-da33cb54af2b" />
+
+
+
 1. Project Overview
 This project presents a comprehensive workflow for time series analysis and forecasting of European electricity spot prices, followed by a detailed techno-economic evaluation of Agri-Photovoltaic (Agri-PV) systems. The analysis leverages historical data to build robust SARIMAX models, which are then used to forecast future prices under various economic scenarios. Finally, a Monte Carlo simulation and deterministic sensitivity analysis are performed to assess the financial viability (NPV, IRR, LCOE) of different Agri-PV plant configurations.
 The entire process is structured into two main Python scripts: one for auxiliary data exploration and another that combines the main analysis pipeline.
@@ -37,26 +42,6 @@ A final, comprehensive financial report is generated and saved to Excel.
 <img width="864" height="420" alt="image" src="https://github.com/user-attachments/assets/4bea1e25-6a64-4ebd-bf1d-36edf1e7be64" />
 
 
-├── data/
-│   ├── Spot EU Gas Merged_Hourly_Data.csv      # (Auxiliary) Full dataset for initial EDA (2015-2024)
-│   ├── Spot Price_less variables_Hourly_Data.csv # Main dataset used for modeling (2021-2024)
-│   ├── pv_tmy_data.csv                         # Typical Meteorological Year data for PV yield
-│   ├── farm_load_hourly.csv                    # Hourly load profile for the farm
-│   └── monthly_marktwert.csv                   # Historical monthly solar "Marktwert" data
-│
-├── scripts/
-│   ├── Auxiliary Code.py                       # Part 0: Interactive EDA and stationarity analysis
-│   └── 3 Parts Main Code.py                    # Parts 1-3: Combined model training, forecasting, and financial simulation
-│
-├── output/
-│   ├── fitted_seasonal_models.joblib           # Saved SARIMAX models from Part 1
-│   ├── seasonal_exog_scalers.joblib            # Saved StandardScaler objects from Part 1
-│   ├── best_orders_per_season.joblib           # Saved best model orders from Part 1
-│   ├── spot_price_forecasts_hourly_....xlsx    # Excel output with price forecasts from Part 2
-│   ├── generated_future_exogenous_....xlsx     # Excel output with generated variables from Part 2
-│   └── financial_results_final.xlsx            # Final Excel report with MC results from Part 3
-│
-└── README.md                                   # This file
 
 4. How to Run the Analysis
 The scripts are designed to be run in a specific sequence. Ensure all required data files are present in the data/ directory.
